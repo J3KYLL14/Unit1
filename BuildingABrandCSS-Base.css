@@ -1,0 +1,37 @@
+/* Define CSS Variables */
+:root {
+    --primary-color: #005CA3;
+    --secondary-color: #F4B942;
+    --light-bg: #EBF6FF;
+    --dark-text: #1E0B0E;
+  }
+  
+  /* Use variables in styles */
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    background-color: var(--light-bg);
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+  }
+  
+  .jumbotron {
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+  }
+  
+  footer {
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+  }
+  
