@@ -1,0 +1,41 @@
+/* Basic styles for visualization */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
+    gap: 10px; /* Gap between grid items */
+}
+
+.section-1, .section-2, .section-3, .section-4, .section-5 {
+    color: inherit;
+}
+
+.section-1 { 
+    background-color: red; 
+    color: red; 
+    grid-column: 1 / -1; /* Spans from the first column to the last column */
+}
+
+.section-2 { 
+    background-color: blue; 
+    color: blue; 
+    grid-column: 1 / 2; /* Occupies the first column */
+}
+
+.section-3 { 
+    background-color: green; 
+    color: green; 
+    grid-column: 2 / 4; /* Spans from the second column to the third column */
+}
+
+.section-4 { 
+    background-color: yellow; 
+    color: yellow; 
+    grid-column: 4 / 5; /* Occupies the fourth column */
+}
+
+.section-5 { 
+    background-color: purple; 
+    color: purple; 
+    grid-column: 1 / -1; /* Spans from the first column to the last column */
+    grid-row: span 2; /* Spans across two rows */
+}
