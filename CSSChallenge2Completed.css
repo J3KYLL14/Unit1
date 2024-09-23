@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.section-1, .section-5 {
+    flex: 0 0 10%; /* Adjust the height as needed */
+}
+.middle-container {
+    display: flex;
+    flex: 1;
+}
+.section-2, .section-3 {
+    flex: 0 0 25%;
+}
+.section-4 {
+    flex: 1;
+}
+.section-1 { 
+    background-color: red; 
+    color: red;
+}
+.section-2 { 
+    background-color: blue; 
+    color: blue;
+}
+.section-3 { 
+    background-color: yellow; 
+    color: yellow;
+}
+.section-4 { 
+    background-color: green; 
+    color: green;
+}
+.section-5 { 
+    background-color: purple; 
+    color: purple;
+}
